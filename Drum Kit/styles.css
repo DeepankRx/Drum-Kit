@@ -1,0 +1,168 @@
+body {
+    background-color: #283149;
+    text-align: center;
+}
+
+h1 {
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #DA0463;
+    font-size: 5rem;
+}
+
+.container {
+    margin: 10% auto;
+}
+
+.drum {
+    font-family: "Arvo", cursive;
+    border: 10px solid #404B69;
+    border-radius: 15px;
+    margin: 10px;
+    line-height: 2;
+    color: #DA0463;
+    text-shadow: 3px 0 #DBEDF3;
+    font-size: 5rem;
+    font-weight: 900;
+    width: 150px;
+    height: 150px;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    font-family: "Arvo", cursive;
+    left: 0;
+    right: 0;
+    background: #404B69;
+    height: auto;
+    font-size: 2.5em;
+    font-weight: 900;
+    text-shadow: 3px 0 #DA0463;
+    padding: 40px;
+    color: #DBEDF3;
+}
+
+.w {
+    background: url('images/tom1.png');
+    background-color: #DBEDF3;
+}
+
+.a {
+    background: url('images/tom2.png');
+    background-color: #DBEDF3;
+}
+
+.s {
+    background: url('images/tom3.png');
+    background-color: #DBEDF3;
+}
+
+.d {
+    background: url('images/tom4.png');
+    background-color: #DBEDF3;
+}
+
+.j {
+    background: url('images/snare.png');
+    background-color: #DBEDF3;
+}
+
+.k {
+    background: url('images/crash.png');
+    background-color: #DBEDF3;
+}
+
+.l {
+    background: url('images/kick.png');
+    background-color: #DBEDF3;
+}
+
+.pressed {
+    box-shadow: 0 3px 4px 0 #DBEDF3;
+    opacity: 0.5;
+    text-shadow: 10px 0 #DA0463;
+    color: #DBEDF3;
+}
+
+@media screen and (max-width: 1300px) {
+    h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        margin: 20% auto;
+        height: 100px;
+    }
+
+    .drum {
+        font-size: 2rem;
+        height: 100px;
+        width: 100px;
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        font-family: "Arvo", cursive;
+        left: 0;
+        right: 0;
+        background: #404B69;
+        height: auto;
+        font-size: 2.5em;
+        font-weight: 900;
+        text-shadow: 3px 0 #DA0463;
+        padding: 20px;
+        color: #DBEDF3;
+    }
+}
+
+@media screen and (max-width: 700px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        margin: 30% auto;
+        height: 475px;
+    }
+
+    .drum {
+        font-size: 2rem;
+
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        height: 40px;
+        margin-top: 40px;
+
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .container {
+        margin: 30% auto;
+        height: 400px;
+    }
+
+    .drum {
+        font-size: 2rem;
+
+    }
+
+    footer {
+        position: absolute;
+        bottom: 0;
+        height: 40px;
+        margin-top: 40px;
+
+    }
+}
